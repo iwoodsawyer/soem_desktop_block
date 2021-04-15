@@ -23,3 +23,5 @@ Build/usage instructions:
     - First run is likely to fail, because DeviceID parameter must be correctly set.
     - After first run, open diagnostics viewer and note the DeviceID Nr. related to your Ethernet device.
     - Update DeviceID in the parameters of the SOEM_desktop or the SOEM_sldrt Sfunction and run again.
+
+[![View Simple EtherCAT Master for Simulink Windows Desktop on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/77233-simple-ethercat-master-for-simulink-windows-desktop)
