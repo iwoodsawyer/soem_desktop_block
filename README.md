@@ -1,6 +1,7 @@
+# Simple EtherCAT Master for Simulink Desktop (Windows)
+
 [![View Simple EtherCAT Master for Simulink Windows Desktop on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/77233-simple-ethercat-master-for-simulink-windows-desktop)
 
-# Simple EtherCAT Master for Simulink Desktop (Windows)
 The example Simple EtherCAT Master Driver Block SFunctions for Simulink Desktop (Windows) shows basic usage of the Simple Open EtherCAT Master (SOEM) library by transferring 32 bytes of input and output PDO data with an EtherCAT Slave device. The example models are to be run in Normal or Accelerator mode on Windows Desktop. The first example model uses a self made real-time execution Sfunction block where sample time is synchronized based on the slave distributed clock. The second example model uses the real-time execution block of the Simulink Desktop Real-Time Toolbox, which is more accurate and robust, but does not sync with the slave distributed clock. Note that External mode is not supported. Both example models were tested to transfer/receive 32 bytes of PDO data with with an Hilscher NXHAT52-RTE slave running on a Raspberry Pi.
 
 Prerequisites:
